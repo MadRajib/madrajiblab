@@ -3,8 +3,10 @@ layout: page
 title: About
 ---
 
-I am a Flutter (also Webdev) developer with a passion for building beautiful, performant, and scalable mobile applications. With my strong foundation in computer science and experience with a variety of programming languages, I am able to quickly pick up new technologies and deliver high-quality results.
-
-I have a track record of success in building and launching Flutter apps that have received positive user reviews and have been featured on the App Store and Google Play. I am always seeking out opportunities to learn and grow as a developer, and I am excited to continue building my skills in Flutter and other modern technologies.
-
-In my free time, I enjoy contributing to open-source projects and staying up-to-date with the latest trends and best practices in the tech industry.
+I'm a Student, Developer, Game Designer and Teacher
+▶️ I'm currently pursuing my master degree in Computer Science.
+🔭 I’m currently learning about Deep-Learning.
+💕 I love building softwares, web apps and Games.
+💕 I love building cool electronic projects.
+🥅 2020 Goals: Contribute more to Open Source projects
+⚡ Fun fact: I love performing magic tricks and reading self development books.
