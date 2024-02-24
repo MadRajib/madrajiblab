@@ -4,13 +4,15 @@ entries:
       - title: more about me 
         url: /about
       - title: email 
-        url: mailto:hello@fleetime.my.id
+        url: madrajib:madrajiblab@gmail.com
       - title: linkedin
-        url: https://www.linkedin.com/in/fleetime/
+        url: https://www.linkedin.com/in/madhabsharma/
       - title: github 
-        url: https://github.com/fleetimee/
-      - title: twitter 
-        url: https://twitter.com/fleetimee
+        url: https://github.com/MadRajib
+      - title: instructables
+        url: https://www.instructables.com/member/Madrajib/
+      - title: hackster.io
+        url: https://www.hackster.io/Madrajib/
 
   - title: writing
     post_list : true
