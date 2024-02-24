@@ -9,7 +9,7 @@ Validate if a given string can be interpreted as a decimal number.
 
 **[Go to Problem](https://leetcode.com/problems/valid-number/)**
 
-```
+```bash
 Some examples:
 "0" => true
 " 0.1 " => true
@@ -53,11 +53,11 @@ Lets Represent the current problem using DFA:
 __1.__ How do we represent the states set in code(c++) ?
 
     Using list of hash maps, where hash maps will store the transitions.
-{% highlight cpp %}
+```cpp
 vector<unordered_maps<string,int>> states;
-{% endhighlight %}
+```
     Transitions from a state are stored in a map:   
-{% highlight cpp %}
+```cpp
 { //State 1
     unordered_map<string,int> map;
     map.insert({"space", 1});
@@ -67,7 +67,7 @@ vector<unordered_maps<string,int>> states;
     //push the state in the states vector
     states.push_back(map);
 }
-{% endhighlight %}
+```
     Here in state 1 there are 4 transitions.
     A transition is represented using key value pair:
     {"input_string",next_state}. 
@@ -76,6 +76,7 @@ __2. Algorithm:__
 
     Start from current_state = 1
     For each char in the input string:
+    
         a. Map the char to valid Alphabets!
         * [0-9] -> digit
         * +/-   -> sign
@@ -88,12 +89,12 @@ __2. Algorithm:__
 
         c. If present move to next state.
     
-    d. After all input char has been scanned,
-    check if the state we ended is final state or not!.
-    if not return false else return true.
+        d. After all input char has been scanned,
+        check if the state we ended is final state or not!.
+        if not return false else return true.
 
 __C++ Implementation:__
-{% highlight cpp %}
+```cpp
 bool isNumber(string s) {
     
     vector<unordered_map<string,int>> states;
@@ -200,4 +201,4 @@ bool isNumber(string s) {
         //if yes in one of the final state return true 
     return true;
 }
-{% endhighlight %}
+```
